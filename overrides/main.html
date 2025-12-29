@@ -1,5 +1,13 @@
 {% extends "base.html" %}
 
+{% block announce %}
+<center>
+  <a href="https://github.com/py-pdf/fpdf2/releases/tag/2.8.5">New release: 2.8.5 on 2025/10/29</a>
+  -
+  <a href="https://github.com/py-pdf/fpdf2/discussions/1430">Already a contributor? Would you like to join us as a maintainer?</a>
+</center>
+{% endblock %}
+
 {% block extrahead %}
   {% set title = config.site_name %}
   {% if page and page.meta and page.meta.title %}
